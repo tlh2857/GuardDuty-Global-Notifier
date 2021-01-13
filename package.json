@@ -1,0 +1,20 @@
+{
+  "name": "cwe-gd-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cwe-gd-cdk": "bin/cwe-gd-cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.84.0",
+    "aws-cdk": "1.84.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.84.0"
+  }
+}
