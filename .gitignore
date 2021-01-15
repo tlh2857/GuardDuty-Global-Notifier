@@ -1,5 +1,5 @@
 node_modules
-
+sh.exe.stackdump
 # CDK asset staging directory
 .cdk.staging
 cdk.out

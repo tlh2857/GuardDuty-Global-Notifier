@@ -1,5 +1,11 @@
 const AWS = require('aws-sdk');
-const sns = new AWS.SNS({region:'us-west-2'});
+
+// extract the region of the SNS topic from the ARN
+const regionRegEx = RegExp(`^(?:[^:]+:){3}([^:]+).*`);
+const region = regionRegEx.exec(process.env.SNSTopicARN)[1];
+
+// set the region of the SNS topic in the SNS constructor
+const sns = new AWS.SNS({region:region});
 
 
 
