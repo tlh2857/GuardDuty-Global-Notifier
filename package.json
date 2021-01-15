@@ -15,6 +15,10 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.84.0"
+    "@aws-cdk/aws-events": "^1.84.0",
+    "@aws-cdk/aws-events-targets": "^1.84.0",
+    "@aws-cdk/aws-iam": "^1.84.0",
+    "@aws-cdk/aws-lambda": "^1.84.0",
+    "@aws-cdk/core": "^1.84.0"
   }
 }
